@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.blue {
+    background: radial-gradient(circle, #004cff, #000e33);
+}
+
+.purple {
+    background: linear-gradient(135deg, #cc00ff, #9966ff);
+    color: white;
+}
+
+.features {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.cotton {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.norm {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.chant {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 40px 0;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-left: 60px solid #2d4ddb;
+}
+
+.phone {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
